@@ -5,7 +5,7 @@ Needs a config.js file:
 
 config.js
 ```
-exports.module = function() {
+module.exports = {
   secret: 'secret-string'
 }
 ```
