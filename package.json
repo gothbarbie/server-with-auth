@@ -1,5 +1,5 @@
 {
-  "name": "server with auth",
+  "name": "server-with-auth",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +11,7 @@
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.17.0",
+    "cors": "^2.8.1",
     "express": "^4.15.0",
     "jwt-simple": "^0.5.1",
     "mongoose": "^4.8.5",
