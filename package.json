@@ -1,5 +1,5 @@
 {
-  "name": "server with auth",
+  "name": "server-with-auth",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
