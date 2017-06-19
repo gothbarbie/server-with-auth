@@ -1,4 +1,6 @@
 // Main starting point of the application
+require('dotenv').config()
+
 const express = require('express')
 const http = require('http')
 const bodyParser = require('body-parser')
@@ -9,7 +11,7 @@ const mongoose = require('mongoose')
 const cors = require('cors')
 
 // DB Setup
-mongoose.connect('mongodb://localhost:auth/auth')
+mongoose.connect(process.env.DATABASE_URL)
 
 // App Setup
 app.use(morgan('combined'))
